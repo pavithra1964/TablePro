@@ -1,7 +1,7 @@
 from rest_framework.generics import ListAPIView, RetrieveAPIView
 
 from tables.models import Table
-from .serialzers import TableSerializer
+from .serializers import TableSerializer
 
 
 class TableListView(ListAPIView):

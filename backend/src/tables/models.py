@@ -1,5 +1,7 @@
 from django.db import models
 
+from django.db import models
+
 
 class Table(models.Model):
     Stu_Name = models.CharField(max_length=50)

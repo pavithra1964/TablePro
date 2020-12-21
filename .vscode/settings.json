@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "python",
+    "python.pythonPath":"python",
     "editor.formatOnSave": true,
     "python.linting.pycodestyleEnabled": true,
     "python.linting.pylintPath": "/path/to/pylint",
@@ -8,6 +8,9 @@
         "pylint_django"
     ],
     "python.linting.pylintEnabled": true,
-    "python.venvPath": "${workspaceFolder}/backend/.env/bin/python3",
-    "python.linting.pycodestyleArgs": ["--ignore=E501"]
+    "python.venvPath":"${workspaceFolder}/backend/.env/bin/python3",
+    "python.linting.pycodestyleArgs": [
+        "--ignore=E501"
+    ],
+    "python.linting.enabled": true
 }
